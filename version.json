@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0-beta.4",
-  "buildNumber": 104,
-  "downloadUrl": "https://raw.githubusercontent.com/worlon-code/passwordpdf-releases/main/releases/v1.0.0-beta.4/app-release.apk",
-  "releaseNotes": "• First OTA Update Support\n• Performance optimizations"
+  "version": "1.0.1",
+  "buildNumber": 105,
+  "releaseNotes": "Security Update: Enforced Encryption Setup, Improved Update Flow, Bug Fixes.",
+  "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.0.1/app-release.apk"
 }
