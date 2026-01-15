@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "buildNumber": 105,
-  "releaseNotes": "Security Update: Enforced Encryption Setup, Improved Update Flow, Bug Fixes.",
-  "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.0.1/app-release.apk"
+    "latestVersion": "1.1.0",
+    "buildNumber": 107,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.1.0/app-release.apk",
+    "releaseNotes": "1. Auto-Updates: Persistent Red Dot indicator.\n2. Open With: Automatically tries saved passwords for external files.\n3. UI: Back button behavior fixed (Force Close)."
 }
