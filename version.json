@@ -1,6 +1,6 @@
 {
-    "version": "1.1.5",
-    "buildNumber": 114,
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.1.5/app-release.apk",
-    "releaseNotes": "1. Final Fix: Robust Update Indicator (Red Dot) logic.\n2. Fix: Manual Folder Sync hijacking protection.\n3. Feature: Two-Port Save (App Library vs Device Storage).\n4. Fix: Save button visibility logic."
+    "version": "1.1.8",
+    "buildNumber": 117,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.1.8/app-release.apk",
+    "releaseNotes": "Major Update v1.1.8:\n\n1. Biometric Overhaul: Added support for Face Unlock and dynamic UI labels (Face/Fingerprint/Iris).\n2. Sync Improvements: Fixed duplicate reference creation and improved Manual Folder protection.\n3. Storage Logic: Implemented 'Two-Port Save' to distinguish between App Library and Device Storage files.\n4. UI Enhancements: Fixed persistent update indicator (Red Dot) and Save button visibility.\n5. Weak Biometric Support: Enabled support for broader range of biometric sensors."
 }
