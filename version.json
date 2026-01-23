@@ -1,6 +1,6 @@
 {
     "version": "1.1.1",
-    "buildNumber": 109,
+    "buildNumber": 110,
     "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.1.1/app-release.apk",
-    "releaseNotes": "1. Feature: Save external PDFs to app library.\n2. Feature: Native sharing from viewer.\n3. Feature: New Go to Page tool with interactive slider.\n4. Optimization: Weekly update checks."
+    "releaseNotes": "1. Feature: Save external PDFs to app library (honors user selected Download path).\n2. Feature: Native sharing from viewer.\n3. Feature: New Go to Page tool with interactive slider.\n4. Feature: Persistent database logging for major app operations.\n5. Improvement: Hardened APK download logic with ZIP verification.\n6. Optimization: Weekly update checks."
 }
