@@ -1,6 +1,6 @@
 {
-    "version": "1.0.2",
-    "buildNumber": 108,
-    "downloadUrl": "https://raw.githubusercontent.com/worlon-code/passwordpdf-releases/main/releases/v1.0.2/app-release.apk",
-    "releaseNotes": "1. Fix: Critical update for update checker.\n2. Fix: Recurisve password check.\n3. Fix: Back button behavior."
+    "version": "1.1.1",
+    "buildNumber": 109,
+    "downloadUrl": "https://raw.githubusercontent.com/worlon-code/passwordpdf-releases/main/releases/v1.1.1/app-release.apk",
+    "releaseNotes": "1. Feature: Save external PDFs to app library.\n2. Feature: Native sharing from viewer.\n3. Feature: New Go to Page tool with interactive slider.\n4. Optimization: Weekly update checks."
 }
