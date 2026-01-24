@@ -1,6 +1,6 @@
 {
-    "latestVersion": "1.0.5+5",
-    "changeLog": "Update v1.0.5+5: Fix video player crash, add multi-select sharing, enhance series folder view with sorting/playback, and fix recurring update dialog.",
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/StreamSave-Releases/v1.0.5+5/app-release.apk",
+    "latestVersion": "1.0.6+6",
+    "changeLog": "Update v1.0.6+6: NEW In-App Update flow! Download and install updates directly with progress tracking.",
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/StreamSave-Releases/v1.0.6+6/app-release.apk",
     "date": "2026-01-24"
 }
