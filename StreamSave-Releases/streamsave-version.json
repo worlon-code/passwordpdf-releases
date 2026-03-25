@@ -1,6 +1,6 @@
-{
-    "latestVersion":  "1.1.3+4",
-    "changeLog":  "Update v1.1.3+4 - See commits for details.",
-    "downloadUrl":  "https://github.com/worlon-code/passwordpdf-releases/raw/main/StreamSave-Releases/v1.1.3+4/app-release.apk",
-    "date":  "2026-03-20"
+﻿{
+    "latestVersion":  "1.1.4+4",
+    "date":  "2026-03-25",
+    "downloadUrl":  "https://github.com/worlon-code/passwordpdf-releases/raw/main/StreamSave-Releases/v1.1.4+4/app-release.apk",
+    "changeLog":  "- 2026-03-25\nðŸš€ NEW FEATURES:\n- **Production HLS Repair**: Promoted proven concat-demuxer repair flow to official production path for partial HLS streams.\n- **MPEG-TS Normalization**: Implemented a mandatory normalization pass for all segments to ensure bitstream uniformity before merging.\n- **Explicit Timeline Alignment**: Integrated absolute `duration` directives in concat lists, eliminating cumulative duration drift in repaired videos.\n\nðŸ”§ BUG FIXES:\n- Fixed 22-second duration overrun issue in HLS repairs by declaring per-segment durations.\n- Resolved metadata collisions by stripping `timed_id3` and non-essential streams during normalization.\n\nâš¡ IMPROVEMENTS:\n- Optimized storage lifecycle by implementing mandatory `_parts/` folder cleanup upon success.\n- Accurate file size reporting in UI using post-remux file length calculations.\n\nðŸ“¦ TECHNICAL:\n- Switched to the production `db.markCompleted` API for native completion writes.\n- Enforced strict safety checks to prevent merging if required segments are missing."
 }
