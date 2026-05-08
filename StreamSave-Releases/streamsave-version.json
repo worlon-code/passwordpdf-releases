@@ -1,6 +1,6 @@
 ﻿{
-    "latestVersion":  "1.1.8+4",
-    "date":  "2026-05-06",
-    "downloadUrl":  "https://github.com/worlon-code/passwordpdf-releases/raw/main/StreamSave-Releases/v1.1.8+4/app-release.apk",
-    "changeLog":  "- 2026-05-06\nðŸš€ NEW FEATURES:\n- **Premium Source Selector**: Redesigned the source selection dialog with a scrollable layout, rounded corners, and improved typography.\n\nðŸ”§ BUG FIXES:\n- **Duplicate Source Fix**: Resolved a logic error in the category migration and composition layer that caused managed sources (KissKH, VidSrc) to appear multiple times in the selector.\n- **UI Overflow Fix**: Resolved the \"Bottom Overflowed\" error in the source selector by wrapping the list in a flexible, scrollable container."
+    "latestVersion":  "1.1.9+4",
+    "date":  "2026-05-08",
+    "downloadUrl":  "https://github.com/worlon-code/passwordpdf-releases/raw/main/StreamSave-Releases/v1.1.9+4/app-release.apk",
+    "changeLog":  "- 2026-05-08\nðŸš€ NEW FEATURES:\n- **Storage Architecture Migration**: Successfully moved the application\u0027s root storage directory to `/StreamSave` for improved visibility and organization.\n- **Automated Path Migration**: Implemented a robust startup routine that physically moves legacy download folders from `Download/KissKh` to the new root and updates database references automatically.\n- **Dynamic Native Pathing**: Refactored the Kotlin download engine to resolve cleanup and segment directories dynamically from the database, ensuring consistency across root-level storage changes.\n\nðŸ”§ BUG FIXES:\n- **Kotlin Nullability Fix**: Resolved a compilation error in `HlsDownloadManager.kt` related to nullable path variables.\n- **Dart Import Fix**: Added missing `PathUtils` import in the download queue provider.\n- **Persistent Log Redirection**: Corrected hardcoded paths in the error logger to ensure logs are stored in the new `/StreamSave/logs` directory."
 }
