@@ -1,6 +1,7 @@
 {
-    "version": "1.1.8",
-    "buildNumber": 117,
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.1.8/app-release.apk",
-    "releaseNotes": "Major Update v1.1.8:\n\n1. Biometric Overhaul: Added support for Face Unlock and dynamic UI labels (Face/Fingerprint/Iris).\n2. Sync Improvements: Fixed duplicate reference creation and improved Manual Folder protection.\n3. Storage Logic: Implemented 'Two-Port Save' to distinguish between App Library and Device Storage files.\n4. UI Enhancements: Fixed persistent update indicator (Red Dot) and Save button visibility.\n5. Weak Biometric Support: Enabled support for broader range of biometric sensors."
+    "version": "1.1.9",
+    "buildNumber": 118,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.1.9/app-release.apk",
+    "sha256": "fe4dab84963fd3b6cd6e0619d5eab83db1ac4b8f42c428eb4854647995b7811e",
+    "releaseNotes": "Update v1.1.9:\n\n1. In-place Lossless PDF Operations: Operating directly on PDF document (remove password, split pages) to preserve interactive form fields, bookmarks, and links.\n2. Warn Before Flattening: PDF reorder and merge operations warn users before flattening document interactive content.\n3. Optional ZIP Export Decryption: Added opt-in ZIP export option to decrypt protected PDFs inside ZIP archive using stored passwords, utilizing secure main-isolate processing and temporary storage cleanup.\n4. Performance & Core Bug Fixes: Resolved All-Docs Rename no-op, folder self-nesting, Open-With reloading, stuck loading indicators.\n5. Security & Platform Hardening: Reinforced self-update mechanism with SHA-256 hash checks and host allowed-lists, biometrics, auto-lock timing, and log redactions."
 }
