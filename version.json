@@ -1,7 +1,7 @@
 {
-    "version": "1.2.0",
-    "buildNumber": 119,
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.0/app-release.apk",
-    "sha256": "a2281791c2a722a9b5ab0ff3ac4c3def5fb5fe83b08b8d07c61b3f0b85c817fb",
-    "releaseNotes": "Update v1.2.0:\n\n1. Stronger Secret Storage: The app PIN and developer gate are now protected with salted Argon2id hashing.\n2. Authenticated Encryption Support: Added support for reading AES-256-GCM (authenticated) encrypted secrets, laying the groundwork for a stronger saved-password encryption upgrade in an upcoming release.\n3. Export Privacy: ZIP export passwords are no longer written to disk (kept in memory for the active export only).\n4. Reduced Key Exposure: The developer screen now shows only a key fingerprint instead of the raw encryption key.\n5. Stability and security hardening."
+    "version": "1.2.1",
+    "buildNumber": 120,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.1/app-release.apk",
+    "sha256": "b6aa46ad5097f981f01c45f33cd5c917092eec48a1ec3fbef7482d2d4cf745b7",
+    "releaseNotes": "Update v1.2.1:\n\n1. Stronger Secret Storage: the app PIN and developer gate are now protected with salted Argon2id hashing.\n2. Authenticated Encryption Support: added support for reading AES-256-GCM encrypted secrets, laying the groundwork for a stronger saved-password encryption upgrade.\n3. Export Privacy: ZIP export passwords are no longer written to disk.\n4. Reduced Key Exposure: the developer screen now shows only a key fingerprint instead of the raw encryption key.\n5. Update Reliability: fixed the in-app updater so it correctly downloads new releases."
 }
