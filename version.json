@@ -1,7 +1,7 @@
 {
-    "version": "1.2.1",
-    "buildNumber": 120,
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.1/app-release.apk",
-    "sha256": "b6aa46ad5097f981f01c45f33cd5c917092eec48a1ec3fbef7482d2d4cf745b7",
-    "releaseNotes": "Update v1.2.1:\n\n1. Stronger Secret Storage: the app PIN and developer gate are now protected with salted Argon2id hashing.\n2. Authenticated Encryption Support: added support for reading AES-256-GCM encrypted secrets, laying the groundwork for a stronger saved-password encryption upgrade.\n3. Export Privacy: ZIP export passwords are no longer written to disk.\n4. Reduced Key Exposure: the developer screen now shows only a key fingerprint instead of the raw encryption key.\n5. Update Reliability: fixed the in-app updater so it correctly downloads new releases."
+    "version": "1.2.2",
+    "buildNumber": 121,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.2/app-release.apk",
+    "sha256": "263851c627a89fd2dccc5cdc520c8006d1b81ab65ec6e701597bc2b2962d2aee",
+    "releaseNotes": "Update v1.2.2:\n\n1. Password Backup: create an encrypted, passphrase-protected backup of all your saved passwords — Save it to your device (Download/PDF Manager/Backup) or Share it.\n2. Password Restore: import a backup on any device. New entries are added automatically, name clashes are auto-renamed, and same-password duplicates are shown for review — an existing password is never overwritten.\n3. Portable & Keystore-independent: backups are protected by your passphrase, so they survive reinstalls and moving to a new phone.\n4. Stability and security fixes."
 }
