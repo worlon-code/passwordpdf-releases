@@ -1,7 +1,7 @@
 {
-    "version": "1.2.4",
-    "buildNumber": 123,
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.4/app-release.apk",
-    "sha256": "ad2e5065d8bef31907bc3c9b6f5cafe23877f12ef0bdd9d77f9bb2ed08ff3455",
-    "releaseNotes": "Update v1.2.4:\n\n1. Stronger password encryption: your saved passwords are automatically upgraded to modern AES-256 encryption on first launch — no action needed, everything keeps working.\n2. Additional security hardening and reliability improvements."
+    "version": "1.2.6",
+    "buildNumber": 125,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.6/app-release.apk",
+    "sha256": "31478cb83711a2572e95b136aea658d9d834488d0751ad9d1d0faa66017742e8",
+    "releaseNotes": "Update v1.2.6:\n\n1. Fixed opening documents shared from other apps (Gmail / Open with) - they now open reliably, and always the correct file.\n2. Smaller app download.\n3. Stability improvements."
 }
