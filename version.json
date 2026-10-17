@@ -1,7 +1,7 @@
 {
-    "version": "1.2.7",
-    "buildNumber": 126,
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.7/app-release.apk",
-    "sha256": "5f4fbd8b8cfd26c87fb6d4d923cb9270a231f221d62a509946d36918a80d7471",
-    "releaseNotes": "Update v1.2.7:\n\n1. Security: AES-256-GCM encryption with Keystore-backed key.\n2. Backup & Restore: Encrypted Documents & Settings backup with Argon2id + AES-GCM.\n3. Navigation: Predictable back navigation flow across tabs and search.\n4. Performance, lifecycles, and bug fixes."
+    "version": "1.2.8",
+    "buildNumber": 127,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.8/app-release.apk",
+    "sha256": "669d9f336552987f7f7fb4eb4294f79b7cc6d5baad8bdd750846375a434785fc",
+    "releaseNotes": "Update v1.2.8:\n\n1. Office Suite: In-app Word (.docx, .doc) with print layout, reflow mode, rich ribbon, and in-page editing.\n2. Spreadsheets: Virtualized Excel (.xlsx, .xls, .csv) with full formula engine (=SUM, =AVERAGE, =IF, etc.), fx formula bar, and live aggregation status bar.\n3. Legacy Formats: Support for Word 97-2003 (.doc), HTML and OLE2/BIFF8 binary Excel (.xls), and CSV.\n4. Performance & Stability: Instant spreadsheet loading, deterministic folder sorting, and PDF password race condition fix."
 }
