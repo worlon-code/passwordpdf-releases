@@ -2,6 +2,6 @@
     "version": "1.2.10",
     "buildNumber": 146,
     "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.10/app-release.apk",
-    "sha256": "1bd7fddcf997f78b48fbb2bde9fa39fcf437a12fa0e2efc57e17bc32c076046b",
+    "sha256": "72b63f33e6342931762b0c9e390dd3c15b837cad5811f93c3d328cbfacc17f94",
     "releaseNotes": "Update v1.2.10:\n\n1. PDF Viewer: Restored one-tap Save File button with direct copy to App Library.\n2. Office Suite: Word (.docx) to PDF pure Dart offline export and in-app document viewing enhancements.\n3. Scanner & OCR: Document scanning with edge detection, interactive crop, and text recognition capabilities.\n4. Stability & Security: Enhanced provider lifecycle management, encrypted vault storage fixes, and bug fixes."
 }
