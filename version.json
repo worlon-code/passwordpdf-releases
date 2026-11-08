@@ -1,7 +1,7 @@
 {
-    "version": "1.2.8",
-    "buildNumber": 127,
-    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.8/app-release.apk",
-    "sha256": "669d9f336552987f7f7fb4eb4294f79b7cc6d5baad8bdd750846375a434785fc",
-    "releaseNotes": "Update v1.2.8:\n\n1. Office Suite: In-app Word (.docx, .doc) with print layout, reflow mode, rich ribbon, and in-page editing.\n2. Spreadsheets: Virtualized Excel (.xlsx, .xls, .csv) with full formula engine (=SUM, =AVERAGE, =IF, etc.), fx formula bar, and live aggregation status bar.\n3. Legacy Formats: Support for Word 97-2003 (.doc), HTML and OLE2/BIFF8 binary Excel (.xls), and CSV.\n4. Performance & Stability: Instant spreadsheet loading, deterministic folder sorting, and PDF password race condition fix."
+    "version": "1.2.10",
+    "buildNumber": 146,
+    "downloadUrl": "https://github.com/worlon-code/passwordpdf-releases/raw/main/releases/v1.2.10/app-release.apk",
+    "sha256": "1bd7fddcf997f78b48fbb2bde9fa39fcf437a12fa0e2efc57e17bc32c076046b",
+    "releaseNotes": "Update v1.2.10:\n\n1. PDF Viewer: Restored one-tap Save File button with direct copy to App Library.\n2. Office Suite: Word (.docx) to PDF pure Dart offline export and in-app document viewing enhancements.\n3. Scanner & OCR: Document scanning with edge detection, interactive crop, and text recognition capabilities.\n4. Stability & Security: Enhanced provider lifecycle management, encrypted vault storage fixes, and bug fixes."
 }
